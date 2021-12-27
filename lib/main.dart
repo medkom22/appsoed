@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Appsoed Pro',
+        title: 'Appsoed Muantap Jiwa',
         routes: {
           DetailNews.routeName: (ctx) => const DetailNews(),
         },
