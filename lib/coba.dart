@@ -9,8 +9,11 @@ class CobaApp extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Coba App"),
       ),
-      body: const Center(
-        child: Text("Coba App"),
+      body: Row(
+        children: const [
+          Text("Coba App"),
+          Text("Coba Dengan Row"),
+        ],
       ),
     );
   }
