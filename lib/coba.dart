@@ -10,9 +10,17 @@ class CobaApp extends StatelessWidget {
         title: const Text("Coba App"),
       ),
       body: Row(
-        children: const [
-          Text("Coba App"),
-          Text("Coba Dengan Row"),
+        children: [
+          const Text("Coba App"),
+          const Text("Coba Dengan Row"),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: const [
+              Center(
+                child: Text("Coba App"),
+              ),
+            ],
+          ),
         ],
       ),
     );
