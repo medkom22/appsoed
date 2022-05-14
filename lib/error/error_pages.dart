@@ -6,7 +6,11 @@ class ErrorPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
+      appBar: AppBar(
+        title: const Text('Error 404'),
+        centerTitle: true,
+      ),
+      body: const Center(
         child: Text('ERROR PAGE'),
       ),
     );
